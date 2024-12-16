@@ -1,0 +1,108 @@
+/* External CSS */
+body{
+  font-family:Italic;
+  font-size:20px;
+  /*margin:0 auto;  New */
+}
+p{
+  font-family:Italic;
+  font-size:20px;
+  /*margin:0 auto;  New */
+}
+
+
+a{
+  text-decoration:none;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#click_me:hover{
+  color: red !important;
+}
+
+/* Change the color of the text of #click_me when you hover over it to white */
+
+
+/* CSS Specificity 
+   inline > id > class > element
+*/
+
+/* Start */
+/* Make #banner stand out */
+#banner{
+  background-color:;
+  color:black;
+  text-align: center;
+  padding:20px;
+}
+p{
+	font-size:27px;
+	text-align:left;
+}
+img{
+	float:Center;
+	border: 10px lined black;
+	margin: 10px 10px 10px 20px;
+}
+
+nav {
+  padding: 10px;
+}
+nav a{
+  font-size:18px;
+  color:Black;
+  margin: 0 10px 0 10px;
+}
+#proj{
+	background-color:Lightblue;
+	color:Black;
+	text-align: center;
+	padding:10px;
+	font-size:15px;
+}
+ h2{
+	 text-align:center;
+ }
+ 
+ img{
+	float:center;
+	border: 1px lined black;
+	margin: 0px 0px 10px 20px;
+}
+
+.flex-container{
+	display:flex;
+	flex-direction:column;
+}
+ 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+nav a:hover{
+	color:white;
+}
+footer{
+	text-align:center;
+    padding: 5px 5px 5px;
+	background-color:lightblue;
+	color:black;
+	
+}
